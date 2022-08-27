@@ -4,8 +4,9 @@ Difference between liteflayer and mineflayer
 
 1. **mineflayer** has physics - **liteflayer** has no physics
 2. **mineflayer** dosen't need a chat parser - **liteflayer** needs a chat parser to respond to messages
+3. **mineflayer** has a control state - **liteflayer** dosen't have a control state
 
-Get started by installing liteflayer: `npm install liteflayer`
+Get started by installing liteflayer: `npm install liteflayer` and also install the following modules that the package wants: `npm install minecraft-protocol`, `npm install randomstring`, `npm install prismarine-chat`!
 
 Example code:
 
